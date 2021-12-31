@@ -4,13 +4,13 @@ import lombok.Builder;
 import lombok.Data;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
-@Builder
 @Data
+@Builder
 public class ReserveProductCommand {
 
     @TargetAggregateIdentifier
-    private String productId;
-    private String orderId;
-    private Integer quantity;
-    private String userId;
+    private final String productId;
+    private final  String orderId;
+    private final Integer quantity;
+    private final String userId;
 }

@@ -3,12 +3,12 @@ package com.appsdeveloperblog.estore.sagacoreapi.events;
 import lombok.Builder;
 import lombok.Data;
 
-@Builder
 @Data
+@Builder
 public class ProductReservedEvent {
 
-    private String productId;
-    private String orderId;
-    private Integer quantity;
-    private String userId;
+    private final String productId;
+    private final String orderId;
+    private final Integer quantity;
+    private final String userId;
 }
