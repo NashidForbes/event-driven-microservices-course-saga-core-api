@@ -1,5 +1,6 @@
 package com.appsdeveloperblog.estore.sagacoreapi.events;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
